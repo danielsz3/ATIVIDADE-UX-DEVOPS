@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Janela de Login</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form class="login-form" action="#">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <button type="submit">Entrar</button>
+            </div>
+            <div class="options">
+                <a href="recuperaSenha.html">Esqueci minha senha</a>
+                <a href="cadastro.html">Primeiro Acesso</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
