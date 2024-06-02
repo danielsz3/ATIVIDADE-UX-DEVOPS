@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Janela de Login</title>
     <link rel="stylesheet" href="estilo/style.css">
+
 </head>
+
 <body>
+    <script src="https://kit.fontawesome.com/813e7cb5fc.js" crossorigin="anonymous"></script>
     <div class="container">
-        <form class="login-form" action="#">
+
+        <form class="login-form" action="login.html">
+            <img src="imagens/logo_site.png" alt="Logo do Site">
             <h2>Login</h2>
             <div class="input-group">
-                <label for="username">Usuário:</label>
-                <input type="text" id="username" name="username" required>
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" name="usuario" class="input" required>
             </div>
             <div class="input-group">
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" class="input" required>
+                <i class="fa fa-eye">
+                </i>
             </div>
             <div class="input-group">
                 <button type="submit">Entrar</button>
@@ -28,4 +36,5 @@
         </form>
     </div>
 </body>
+
 </html>

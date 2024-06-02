@@ -14,14 +14,12 @@ body {
     height: 100vh;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    width: 100%;
+.input{
+    width: 94%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 button {
@@ -43,12 +41,15 @@ button:hover {
 /* Tela de Login */
 .login-form {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 50px;
+    border-radius: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
+.login-form img{
+    margin: 0 50px;
+}
 .login-form h2 {
     margin-top: 0;
 }
