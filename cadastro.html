@@ -12,31 +12,113 @@
 </head>
 
 <body>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cadastro-form {
+            width: 650px;
+            height: 630px;
+            padding: 10px;
+            padding-right: 50px;
+            padding-left: 50px;
+            border: 1px solid #000;
+            border-radius: 15%;
+        }
+
+        .form-control:hover {
+            border-color: rgb(44, 44, 255);
+        }
+
+        .form-control {
+            border-color: rgb(91, 91, 92);
+            border: 1.5px solid;
+        }
+
+        .img-center {
+            text-align: center;
+        }
+
+        .img-center img {
+            width: 85px;
+        }
+
+        .img-center .btn {
+            background-color: #9510ac;
+            color: white;
+            text-decoration: none;
+            width: 49.5%;
+        }
+
+        .img-center .outline-primary {
+            background-color: #fff;
+            color: #9510ac;
+            text-decoration: none;
+            width: 49.5%;
+            border: 1px solid #9510ac;
+        }
+
+        .img-center .btn:hover {
+            background-color: #b53bca;
+            color: white;
+
+        }
+
+        .img-center .outline-primary:hover {
+            background-color: #dfdfdf;
+            color: #9510ac;
+            border: 1px solid #9510ac;
+        }
+    </style>
     <div class="container">
-        <div class="cadastro">
-            <img src="imagens/logo_site.png" alt="Logo H com coloração roxa">
-            <div class="mb-3">
-                <label for="nome" class="form-label">Nome Completo</label>
-                <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
+
+        <div class="cadastro-form">
+
+            <div class="img-center">
+                <img src="imagens/logo_site.png" alt="Logo H com coloração roxa">
+                <h2>Cadastro</h2>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="usuario" class="form-label">Usuário</label>
-                <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="senha" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="senha" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="confirmarsenha" class="form-label">Confirmar Senha</label>
-                <input type="password" class="form-control" id="confirmarsenha" aria-describedby="emailHelp">
-            </div>
-            <button type="button" class="btn btn-primary">Cancelar</button>
-            <button type="button" class="btn btn-outline-primary">Cadastrar</button>
+
+            <form>
+
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Usuário</label>
+                    <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="senha" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                    <label for="confirmarsenha" class="form-label">Confirmar Senha</label>
+                    <input type="password" class="form-control" id="confirmarsenha" aria-describedby="emailHelp">
+                </div>
+
+                <div class="img-center">
+                    <button type="submit" class="btn">Cancelar</button>
+                    <button type="submit" class="btn outline-primary">Cadastrar</button>
+                </div>
+
+            </form>
+
         </div>
     </div>
 </body>
