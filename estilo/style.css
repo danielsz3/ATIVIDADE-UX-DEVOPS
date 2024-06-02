@@ -14,20 +14,18 @@ body {
     height: 100vh;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    width: 100%;
+.input{
+    width: 94%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #ee82ee;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -35,7 +33,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ee82ee;
 }
 
 /* Estilos específicos para cada tela */
@@ -43,12 +41,15 @@ button:hover {
 /* Tela de Login */
 .login-form {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 50px;
+    border-radius: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
+.login-form img{
+    margin: 0 50px;
+}
 .login-form h2 {
     margin-top: 0;
 }
@@ -108,7 +109,7 @@ button:hover {
 
 /* Tela Principal */
 header {
-    background-color: #007bff;
+    background-color: #ee82ee;
     color: #fff;
     padding: 10px 20px;
     display: flex;
