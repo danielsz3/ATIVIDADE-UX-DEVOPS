@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
 
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -41,46 +41,40 @@
         max-width: 500px;
         padding: 20px;
         border: 1px solid #808080;
-        /* Reduzindo a largura da borda para 1px */
         border-radius: 10px;
-        /* Reduzindo o raio da borda para 10px */
         background-color: #ffffff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
-        margin: auto;
-        /* Centralizar horizontalmente */
+        margin: auto
     }
 
-
-    /* Estilo para o título */
     h2 {
         margin-bottom: 20px;
         color: #9510AC;
     }
 
-    /* Estilo para o parágrafo */
     p {
         margin-bottom: 20px;
     }
 
-    /* Estilo para o botão */
-    .btn-primary {
+    .col-md-12 .outline-primary {
         background-color: #9510AC;
         border-color: #9510AC;
         color: #ffffff;
-        /* Alterado para branco */
         width: 100%;
     }
 
-    /* Estilo para inputs */
+    .col-md-12 .btn:hover {
+        background-color: #b53bca;
+        color: #ffffff;
+    }
+
     .form-control {
         margin-bottom: 20px;
     }
 
-    /* Estilo para a imagem do logotipo */
     .logo {
         width: 80px;
-        /* Ajuste o tamanho conforme necessário */
         height: auto;
         display: block;
         margin: 0 auto 20px auto;
@@ -88,23 +82,35 @@
 </style>
 -->
 <body>
+
     <div class="container">
+
         <img src="imagens/logo_site.png" alt="" class="logo">
+
         <form class="row g-3" action="#">
+
             <div class="col-md-12">
+
                 <h2>Recuperar Senha</h2>
 
                 <p>Insira o e-mail cadastrado para receber as instruções de recuperação de senha.</p>
 
                 <label for="inputEmail4" class="form-label"></label>
                 <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail" required>
+
             </div>
+
             <div class="col-md-12">
-                <button type="submit" class="btn-primary">Enviar</button>
+
+                <button type="submit" class="btn outline-primary"
+                    onclick="alert('Siga as instruções enviadas no e-mail!')">Enviar</button>
+
             </div>
+
         </form>
 
     </div>
+
 </body>
 
 </html>
