@@ -1,0 +1,104 @@
+@media (max-width: 767px) { 
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        size: 16px;
+    }
+    .btn-primary{
+        width: 80%;
+        height: 45px;
+    }
+}
+@media (max-width: 959px) { 
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    p{
+        size: 18px;
+    }
+    .btn-primary{
+        width: 80%;
+        height: 50px;
+    }
+}
+@media (min-width: 959px) { 
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+}
+p{
+    size: 20px;
+}
+}
+/* Estilos personalizados para o formulário de recuperação de senha */
+
+/* Definindo margem e padding para o corpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Estilizando o container principal */
+.container {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #808080;
+    /* Reduzindo a largura da borda para 1px */
+    border-radius: 10px;
+    /* Reduzindo o raio da borda para 10px */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+    /* Centralizar horizontalmente */
+}
+
+
+/* Estilo para o título */
+h2 {
+    margin-bottom: 20px;
+    color: #9510AC;
+}
+
+/* Estilo para o parágrafo */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o botão */
+.btn-primary {
+    background-color: #9510AC;
+    border-color: #9510AC;
+    color: #ffffff;
+    /* Alterado para branco */
+    width: 100%;
+}
+
+/* Estilo para inputs */
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Estilo para a imagem do logotipo */
+.logo {
+    width: 80px;
+    /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
