@@ -1,44 +1,55 @@
-@media (max-width: 767px) { 
-    h1{
+@media (max-width: 767px) {
+    h1 {
         font-size: 28px;
     }
-    h2{
+
+    h2 {
         font-size: 24px;
     }
-    p{
+
+    p {
         size: 16px;
     }
-    .btn-primary{
+
+    .btn-primary {
         width: 80%;
         height: 45px;
     }
 }
-@media (max-width: 959px) { 
-    h1{
+
+@media (max-width: 959px) {
+    h1 {
         font-size: 32px;
     }
-    h2{
+
+    h2 {
         font-size: 28px;
     }
-    p{
+
+    p {
         size: 18px;
     }
-    .btn-primary{
+
+    .btn-primary {
         width: 80%;
         height: 50px;
     }
 }
-@media (min-width: 959px) { 
-h1{
-    font-size: 36px;
+
+@media (min-width: 959px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        size: 20px;
+    }
 }
-h2{
-    font-size: 32px;
-}
-p{
-    size: 20px;
-}
-}
+
 /* Estilos personalizados para o formulário de recuperação de senha */
 
 /* Definindo margem e padding para o corpo */
@@ -81,12 +92,15 @@ p {
 }
 
 /* Estilo para o botão */
-.btn-primary {
+.col-md-12 .outline-primary {
     background-color: #9510AC;
     border-color: #9510AC;
     color: #ffffff;
-    /* Alterado para branco */
     width: 100%;
+}
+.col-md-12 .btn:hover {
+    background-color: #b53bca;
+    color: #ffffff;
 }
 
 /* Estilo para inputs */
@@ -101,4 +115,16 @@ p {
     height: auto;
     display: block;
     margin: 0 auto 20px auto;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
