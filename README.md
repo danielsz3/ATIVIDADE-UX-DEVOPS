@@ -12,7 +12,7 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
 
    De forma ilustrativa temos aqui a disposição das telas para um celular, as regras de negócio aplicadas para essas telas se replicam nas telas de **Desktop** e **Tablet**, dito isso vamos ao que importa.
 
-   -### Tela de Login
+   ### - Tela de Login
    Na tela de login é possivel ver que fora os campos, que são requisitos para o login, existe as opções de **"Esqueceu sua senha?"** e **"Primeiro acesso"**, essas opções são pensadas tanto para um usuário que ja tem conta quanto para um novo usuário. O campo da senha existe a opção de exibir a senha do usuário, pensando em uma forma de feedback pro usuário.
 
    
