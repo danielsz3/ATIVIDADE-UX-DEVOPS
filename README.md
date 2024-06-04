@@ -1,4 +1,4 @@
-:large_blue_circle: # ATIVIDADE-UX-DEVOPS :large_blue_circle:
+ # :large_blue_circle: ATIVIDADE-UX-DEVOPS :large_blue_circle:
 
 Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
 
