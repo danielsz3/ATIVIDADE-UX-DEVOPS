@@ -96,11 +96,28 @@ p {
     background-color: #9510AC;
     border-color: #9510AC;
     color: #ffffff;
-    width: 100%;
+    width: 49%;
 }
 .col-md-12 .btn:hover {
     background-color: #b53bca;
     color: #ffffff;
+}
+
+.col-md-12 
+.outline-primary-02 {
+    background-color: #ffffff;
+    border-color: #9510AC;
+    color: #9510AC;
+    width: 49%;
+}
+.row .col-md-12 
+.btn:hover {
+    background-color: #b53bca;
+    color: #ffffff;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Estilo para inputs */
