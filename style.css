@@ -98,6 +98,7 @@ p {
     color: #ffffff;
     width: 100%;
 }
+
 .col-md-12 .btn:hover {
     background-color: #b53bca;
     color: #ffffff;
@@ -129,26 +130,30 @@ p {
     cursor: pointer;
 }
 
-/* Header Tela Principal */
-.navbar {
+#navbar {
     background-color: #9510ac;
 }
 
-img {
+#img {
     width: 100px;
 }
-.nav-link{
+
+#nav-link {
     color: #fff;
-   font-size: large;
-   font-weight: bold;
+    font-size: large;
+    font-weight: bold;
 }
-.collapse{
+
+#collapse {
     margin-left: 35%;
 }
-h1 , i{
+
+#h1,
+#i {
     color: #fff;
     margin-left: 15px;
 }
-i{
+
+#i {
     scale: 2;
 }

@@ -15,57 +15,84 @@
 
 <body>
     <style>
-        .navbar {
+        #navbar {
             background-color: #9510ac;
         }
 
-        img {
+        #img {
             width: 100px;
         }
-        .nav-link{
+
+        #nav-link {
             color: #fff;
-           font-size: large;
-           font-weight: bold;
+            font-size: large;
+            font-weight: bold;
         }
-        .collapse{
+
+        #collapse {
             margin-left: 35%;
         }
-        h1 , i{
+
+        #h1,
+        #i {
             color: #fff;
             margin-left: 15px;
         }
-        i{
+
+        #i {
             scale: 2;
         }
+
+        .anuncio{
+            background-color: #808080;
+           margin: 10px 10px;
+           text-align: center;
+           height: 100px;
+        }
     </style>
-    <nav class="navbar navbar-expand-lg ">
+    <nav id="navbar" class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <i class="bi bi-person-circle"></i>
-            <h1>Fulano</h1>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <img src="imagens/logo_site.png" alt="">
+            <i id="i" class="bi bi-person-circle"></i>
+            <h1 id="h1">Fulano</h1>
+            <div id="collapse" class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <img id="img" src="imagens/logo_site.png" alt="">
             </div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Acessibilidade</a>
+                    <a id="nav-link" class="nav-link" aria-current="page" href="#">Acessibilidade</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Sobre</a>
+                    <a id="nav-link" class="nav-link" aria-current="page" href="#">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Contato</a>
+                    <a id="nav-link" class="nav-link" aria-current="page" href="#">Contato</a>
                 </li>
             </ul>
         </div>
     </nav>
     <main>
-
-
-
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <input type="text" class="form-control" placeholder="Pesquisar...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="anuncio">
+            <h5>Banner Anuncio</h5>
+        </div>
+        
+    
     </main>
 </body>
 
