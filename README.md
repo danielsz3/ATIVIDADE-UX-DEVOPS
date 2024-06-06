@@ -4,7 +4,7 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
 
    # 🔵 Apresentação
 
- Olá, esse repositório é um trabalho de faculdade feito, nele esta proposto criar uma interface de login, com recuperação de senha, tela de cadastro e uma tela principal. Desenvolvemos o projeto de baixa fidelidade no MIRO, clique [aqui](https://miro.com/welcomeonboard/TTQ5cmFrS0hOV2RkVk5IZUhVQlVxemxvR0ljV0wwQmVZTUV5MTdZdnk2VWZhaHFJbkI0dmtSNHg5d2NqcUM0VHwzNDU4NzY0NTg4ODY5OTkyODgzfDI=?share_link_id=768665701708) para conseguir ver o projeto no miro.
+ Olá, esse repositório é um trabalho de faculdade, nele esta proposto criar uma interface de login, com recuperação de senha, tela de cadastro e uma tela principal. Desenvolvemos o projeto de baixa fidelidade no MIRO, clique [aqui](https://miro.com/welcomeonboard/TTQ5cmFrS0hOV2RkVk5IZUhVQlVxemxvR0ljV0wwQmVZTUV5MTdZdnk2VWZhaHFJbkI0dmtSNHg5d2NqcUM0VHwzNDU4NzY0NTg4ODY5OTkyODgzfDI=?share_link_id=768665701708) para conseguir ver o projeto no miro.
    No Miro desenvolvemos o projeto de como tem que ser feita a disposição das telas, fizemos o projeto pensando na responsividade e com opções para acessibilidade, esse trabalho esta sendo desenvolvido na matéria de UX da faculdade, então **não foi pensado necessariamente na funcionalidade do código**, e sim na disposição dos elementos em tela, cores, botões, possiveis funcionalidades a serem implementadas e a progreção do usuário dentro do sistema.
 
    ## 🔷 Regras de negócio
@@ -22,6 +22,8 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
    ### :small_blue_diamond: Tela de Recuperar Senha
    A recuperação de senha é feita através de um email enviado ao usuário que, nesse email esta contido um link que redireciona a uma tela especifica de recuperar senha, essa tela esta disposta no [miro](https://miro.com/welcomeonboard/TTQ5cmFrS0hOV2RkVk5IZUhVQlVxemxvR0ljV0wwQmVZTUV5MTdZdnk2VWZhaHFJbkI0dmtSNHg5d2NqcUM0VHwzNDU4NzY0NTg4ODY5OTkyODgzfDI=?share_link_id=768665701708), esse link só sera enviado a um cliente que ja esta salvo nos cadastros.
  
-   
+   ### :small_blue_diamond: Tela para inserir nova Senha
+   Nessa tela temos, que só é possivel acessar através do link enviado ao email do usuário, podemos inserir a nova senha dentro do campo nova senha, nesse campo tamém existe a opção de mostrar a senha ou esconder ela, e claro para confirmar a senha é preciso que os dois campos estejam iguais.
+
 
 
