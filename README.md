@@ -9,7 +9,7 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
 
    ## 🔷 Regras de negócio.
 
-   ![Imagem do projeto no MIRO](https://github.com/danielsz3/ATIVIDADE-UX-DEVOPS/assets/135331760/4551b188-4cc7-419f-907b-c419e01dadb7)
+   ![Imagem do projeto no MIRO]([https://github.com/danielsz3/ATIVIDADE-UX-DEVOPS/assets/135331760/4551b188-4cc7-419f-907b-c419e01dadb7](https://raw.githubusercontent.com/danielsz3/ATIVIDADE-UX-DEVOPS/Gabriel-Capoia/img/Imagens%20interface%20de%20baixa%20fidelidade.png))
 
    De forma ilustrativa temos aqui a disposição das telas para um celular, as regras de negócio aplicadas para essas telas se replicam nas telas de **Desktop** e **Tablet**, dito isso vamos ao que importa.
 
