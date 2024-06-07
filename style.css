@@ -1,0 +1,159 @@
+/* Estilo da Navbar */
+#navbar {
+    background-color: #9510ac;
+}
+
+#img {
+    width: 100px;
+}
+
+#nav-link {
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+
+#navbar .collapse {
+    margin-left: 35%;
+}
+
+#h1,
+#i {
+    color: #fff;
+    margin-left: 15px;
+}
+
+#i {
+    scale: 2;
+}
+
+.anuncio {
+    background-color: #808080;
+    margin: 10px 10px;
+    text-align: center;
+    height: 100px;
+}
+
+/* Estilos personalizados para o formulário de recuperação de senha */
+
+/* Definindo margem e padding para o corpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Estilizando o container principal */
+.main-container {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+}
+
+/* Estilo para o título */
+h2 {
+    margin-bottom: 20px;
+    color: #9510AC;
+}
+
+/* Estilo para o parágrafo */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o botão */
+.col-md-12 .outline-primary {
+    background-color: #9510AC;
+    border-color: #9510AC;
+    color: #ffffff;
+    width: 100%;
+}
+
+.col-md-12 .btn:hover {
+    background-color: #b53bca;
+    color: #ffffff;
+}
+
+/* Estilo para inputs */
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Estilo para a imagem do logotipo */
+.logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        size: 16px;
+    }
+
+    .btn-primary {
+        width: 80%;
+        height: 45px;
+    }
+}
+
+@media (max-width: 959px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        size: 18px;
+    }
+
+    .btn-primary {
+        width: 80%;
+        height: 50px;
+    }
+}
+
+@media (min-width: 959px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        size: 20px;
+    }
+}
