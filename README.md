@@ -75,7 +75,19 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
 
    ### :small_blue_diamond: Tela de Acessibilidade.
    
-   A acessibilidade é uma funcionalidade muito importante, principalmente quando se trata de incluir usuários e clientes com necessidades especiais no mundo da tecnologia, foi pensando nisso que colocamos essa opção ao usuário, nessa opção sera possivel o usuário escolher o tamanho da letra que deseja que seja usuado no site, para mais facil leitura. Também existe a opção de ajustar o contraste da tela, dessa forma fica mais facil ver determinadas imagens caso necessário. Também existe o modo escuro e recursos assistidos, que aplicam um a voz de uma inteligência artificial para ler as opções que estão aparecendo na tela, essa é uma funcionalidade muito importante para usuários com dificuldade visual ou motora. 
+   A acessibilidade é uma funcionalidade muito importante, principalmente quando se trata de incluir usuários e clientes com necessidades especiais no mundo da tecnologia, foi pensando nisso que colocamos essa opção ao usuário, nessa opção sera possivel o usuário escolher:
+   
+   👉 **Tamanho da Letra**  permite o ajuste do tamanho da fonte da página.
+   
+   👉 **Contraste da Tela** ajusta as cores da pagina, dessa forma fica mais facil ver determinadas imagens caso necessário.
+
+   👉 **Recursos Assistidos** que aplicam um a voz de uma inteligência artificial para ler as opções que estão aparecendo na tela, essa é uma funcionalidade muito importante para usuários com dificuldade visual ou motora.
+   
+   👉  **Modo Escuro** altera alguns componentes e cores visando o conforto visual.
+
+   👉 **Modo Daltinismo** proporciona o ajuste necessário a esse tipo de condição visual do usuário.
+
+   
   
 
 
