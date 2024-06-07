@@ -34,6 +34,74 @@
     height: 100px;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-form {
+    width: 600px;
+    height: 470px;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.form-control:hover {
+    border-color: rgb(44, 44, 255);
+}
+
+.form-control {
+    border-color: rgb(91, 91, 92);
+    border: 1.5px solid;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.img-center img {
+    width: 70px;
+}
+
+.img-center .btn {
+    background-color: #9510ac;
+    color: white;
+    text-decoration: none;
+    width: 49.5%;
+}
+
+.img-center .outline-primary {
+    background-color: #fff;
+    color: #9510ac;
+    text-decoration: none;
+    width: 49.5%;
+    border: 1px solid #9510ac;
+}
+
+.img-center .btn:hover {
+    background-color: #b53bca;
+    color: white;
+
+}
+
+.img-center .outline-primary:hover {
+    background-color: #dfdfdf;
+    color: #9510ac;
+    border: 1px solid #9510ac;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Estilos personalizados para o formulário de recuperação de senha */
 
 /* Definindo margem e padding para o corpo */
@@ -105,6 +173,77 @@ p {
     cursor: pointer;
 }
 
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.acessibilidade-box {
+    border: 1px solid #000;
+    padding: 10px 100px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.logo-title {
+    margin-bottom: 20px;
+}
+
+.logo-title img {
+    width: 100px;
+}
+
+.opcoes {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.opcoes h2 {
+    margin-bottom: 10px;
+}
+
+.opcao {
+    margin-bottom: 10px;
+}
+
+.barra-vertical {
+    width: 2px;
+    height: 100px;
+    background-color:#9510AC;;;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.opcoes-direita {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.btn-confirmar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-confirmar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos adicionais para checkbox */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.btn-confirmar{
+    background-color: #9510AC;;
+}
+.btn-confirmar:hover{
+    background-color: #9510AC;;
+}
 /* Estilos responsivos */
 @media (max-width: 767px) {
     
