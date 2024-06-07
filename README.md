@@ -17,17 +17,28 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
    Na tela de login é possivel ver que fora os campos, que são requisitos para o login, existe as opções:
    
    👉 **"Esqueceu sua senha?"**, leva o usuário para uma tela específica de redefinição da senha.
+   
    👉 **"Primeiro acesso"**, leva o usuário para a tela de cadastro.
    
    Essas opções são pensadas tanto para um usuário que ja tem conta quanto para um novo usuário. O campo da senha existe a opção de exibir a senha do usuário, pensando em uma forma de feedback pro usuário.
 
    ### :small_blue_diamond: Tela de Cadastro.
+
+   
    Na tela de cadastro os dados requeridos ao usuário são:
+
+   
    👉 **NOME COMPLETO**, um campo para inserção de caractere, não deve permitir a entrada de caracteres especiais **(@!#$%*)**, ou numero **(1,2,3,4,5,6,7,8,9,0)**
+   
    👉 **EMAIL**, um campo para inserção de caractere, deve permitir obrigatóriamente um **@** e um **.com**.
+   
    👉 **NOME DO USUÁRIO**, um campo para inserção de caractere, aonde o usuário pode escolher o nome que ficará visivel no menu do sistema.
+   
    👉 **SENHA**, um campo para inserção de qualquer tipo de caractere, obedecendo as seguintes regras: Ter mais de 8 caracteres, numeros, letras minusculas, maiusculas e um caractere especial **(@!#$%*)**
+   
    👉 **CONFIRMAÇÃO DE SENHA** um campo para inserção de caractere que deve ser idêntica ao campo de senha.
+
+   
     O nome completo e o nome do usuário tem uma diferença, o nome do usuário será mostrado na home do site, e o nome completo sera salvo como requisito de cadastro.
 
    ### :small_blue_diamond: Tela de Recuperar Senha.
