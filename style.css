@@ -14,7 +14,7 @@
 }
 
 #navbar .collapse {
-    margin-left: 35%;
+    margin-left: 0;
 }
 
 #h1,
@@ -32,6 +32,12 @@
     margin: 10px 10px;
     text-align: center;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
 }
 
 .container {
@@ -88,7 +94,6 @@
 .img-center .btn:hover {
     background-color: #b53bca;
     color: white;
-
 }
 
 .img-center .outline-primary:hover {
@@ -183,7 +188,6 @@ p {
     padding: 10px 100px;
     text-align: center;
     border-radius: 10px;
-
 }
 
 .logo-title {
@@ -210,7 +214,7 @@ p {
 .barra-vertical {
     width: 2px;
     height: 100px;
-    background-color:#9510AC;;;
+    background-color:#9510AC;
     display: inline-block;
     margin: 0 20px;
 }
@@ -244,9 +248,9 @@ input[type="checkbox"] {
 .btn-confirmar:hover{
     background-color: #9510AC;;
 }
+
 /* Estilos responsivos */
 @media (max-width: 767px) {
-    
     h1 {
         font-size: 24px;
     }
@@ -294,8 +298,6 @@ input[type="checkbox"] {
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
-
-
     h1 {
         font-size: 28px;
     }
@@ -383,6 +385,22 @@ input[type="checkbox"] {
     /* Ajuste do espaço da barra de navegação */
     #navbar .collapse {
         margin-left: 35%;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Estilos para telas maiores que 992px */
+    #navbarTogglerDemo03 {
+        justify-content: flex-end;
+    }
+
+    #navbarTogglerDemo03 .navbar-nav {
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    #navbarTogglerDemo03 .nav-item {
+        margin-left: 0; /* Remova a margem esquerda */
     }
 }
 
