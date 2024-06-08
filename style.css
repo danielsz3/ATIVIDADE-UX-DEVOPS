@@ -5,6 +5,10 @@
 
 #img {
     width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+
 }
 
 #nav-link {
@@ -39,6 +43,24 @@
     color: #fff;
     font-size: 1.5rem;
     border-radius: 5px;
+}
+
+.anuncio-lateral {
+    background-color: #808080;
+    margin: 10px 10px;
+    text-align: center;
+    height: 1200px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.anuncio-lateral.col {
+    width: 15%;
 }
 
 .cadastro-form {
@@ -133,7 +155,7 @@ p {
 }
 
 /* Estilo para o botão */
-.col-md-12{
+.col-md-12 {
     display: grid;
     row-gap: 10px;
     justify-items: center;
@@ -223,7 +245,7 @@ p {
 .barra-vertical {
     width: 2px;
     height: 100px;
-    background-color:#9510AC;
+    background-color: #9510AC;
     display: inline-block;
     margin: 0 20px;
 }
@@ -251,15 +273,32 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
-.btn-confirmar{
-    background-color: #9510AC;;
+.btn-confirmar {
+    background-color: #9510AC;
+    ;
 }
-.btn-confirmar:hover{
-    background-color: #9510AC;;
+
+.btn-confirmar:hover {
+    background-color: #9510AC;
+    ;
 }
 
 /* Estilos responsivos */
 @media (max-width: 767px) {
+    .anuncio-lateral {
+        background-color: #808080;
+        margin: 10px 10px;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
     .main-container {
         max-width: 90%;
     }
@@ -311,6 +350,7 @@ input[type="checkbox"] {
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
+
     h1 {
         font-size: 28px;
     }
@@ -396,7 +436,9 @@ input[type="checkbox"] {
     }
 
     /* Ajuste do espaço da barra de navegação */
-   
+    #navbar .collapse {
+        margin-left: 30%;
+    }
 
     #navbarTogglerDemo03 {
         justify-content: flex-end;
@@ -408,11 +450,13 @@ input[type="checkbox"] {
     }
 
     #navbarTogglerDemo03 .nav-item {
-        margin-left: 0; /* Remova a margem esquerda */
+        margin-left: 0;
+        /* Remova a margem esquerda */
     }
 }
 
 @media (min-width: 992px) {
+
     /* Estilos para telas maiores que 992px */
     #navbarTogglerDemo03 {
         justify-content: flex-end;
@@ -424,11 +468,12 @@ input[type="checkbox"] {
     }
 
     #navbarTogglerDemo03 .nav-item {
-        margin-left: 0; /* Remova a margem esquerda */
+        margin-left: 0;
+        /* Remova a margem esquerda */
     }
 }
 
-.mt-3{
+.mt-3 {
     display: flex;
     justify-content: center;
 }
@@ -468,4 +513,29 @@ input[type="checkbox"] {
 .input-group .form-control {
     position: relative;
     z-index: 1;
+}
+
+.nav-link:hover {
+    text-decoration: 3px underline;
+}
+
+#menu {
+    justify-content: flex-end;
+}
+
+#menu {
+    flex: 1;
+}
+
+.container-fluid.col {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-fluid.col .row {
+    gap: 25px;
+    margin: 10px;
 }
