@@ -29,20 +29,14 @@
             </button>
             <i id="i" class="bi bi-person-circle"></i>
             <h1 id="h1">Fulano</h1>
-            <div id="navbarTogglerDemo03" class="collapse navbar-collapse">
+            <div id="navbarTogglerDemo03" class="collapse navbar-collapse justify-content-end">
                 <img id="img" src="imagens/logo_site.png" alt="">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link" aria-current="page" href="acessibilidade.html" target="_blank">Acessibilidade</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-md-none" id="menu">
-                <li class="nav-item">
-                    <a id="nav-link" class="nav-link" aria-current="page" href="acessibilidade.html" target="_blank">Acessibilidade</a>
-                </li>
-                <li class="nav-item">
-                    <a id="nav-link" class="nav-link" aria-current="page" href="#">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a id="nav-link" class="nav-link" aria-current="page" href="#">Contato</a>
-                </li>
-            </ul>
         </div>
     </nav>
     <main>
@@ -55,7 +49,6 @@
                         <input type="text" class="form-control" id="search-input" placeholder="Pesquisar...">
                     </div>
                 </div>
-
             </div>
         </div>
         <br>
@@ -106,14 +99,6 @@
         }
     });
 
-    function mostrarMenu() {
-
-        var ul = document.getElementById("menu")
-        
-        console.log(ul)
-
-        ul.classList.toggle("d-md-none")
-    }
 
 </script>
 
