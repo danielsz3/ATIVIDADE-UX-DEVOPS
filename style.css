@@ -5,6 +5,10 @@
 
 #img {
     width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+
 }
 
 #nav-link {
@@ -33,6 +37,20 @@
     margin: 10px 10px;
     text-align: center;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.anuncio-lateral {
+    background-color: #808080;
+    margin: 10px 10px;
+    text-align: center;
+    height: 1200px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -396,7 +414,9 @@ input[type="checkbox"] {
     }
 
     /* Ajuste do espaço da barra de navegação */
-   
+    #navbar .collapse {
+        margin-left: 30%;
+    }
 
     #navbarTogglerDemo03 {
         justify-content: flex-end;
@@ -468,4 +488,16 @@ input[type="checkbox"] {
 .input-group .form-control {
     position: relative;
     z-index: 1;
+}
+
+.nav-link:hover{
+    text-decoration: 3px underline;
+}
+
+#menu {
+    justify-content: flex-end;
+}
+
+#menu {
+    flex: 1;
 }
