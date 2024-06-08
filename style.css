@@ -14,6 +14,7 @@
 }
 
 #navbar .collapse {
+    margin-top: 10px;
     margin-left: 0;
 }
 
@@ -38,15 +39,6 @@
     color: #fff;
     font-size: 1.5rem;
     border-radius: 5px;
-}
-
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .cadastro-form {
@@ -119,7 +111,7 @@ body {
 
 /* Estilizando o container principal */
 .main-container {
-    max-width: 500px;
+    max-width: 60%;
     padding: 20px;
     border: 1px solid #808080;
     border-radius: 10px;
@@ -141,16 +133,29 @@ p {
 }
 
 /* Estilo para o botão */
+.col-md-12{
+    display: grid;
+    row-gap: 10px;
+    justify-items: center;
+}
+
 .col-md-12 .outline-primary {
     background-color: #9510AC;
     border-color: #9510AC;
     color: #ffffff;
-    width: 100%;
+    width: 80%;
 }
 
 .col-md-12 .btn:hover {
     background-color: #b53bca;
     color: #ffffff;
+}
+
+.col-md-12 .outline-primary-02 {
+    background-color: #ffffff;
+    border-color: #9510AC;
+    color: #9510AC;
+    width: 80%;
 }
 
 /* Estilo para inputs */
@@ -181,6 +186,10 @@ p {
 .container {
     width: 100%;
     max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .acessibilidade-box {
@@ -251,6 +260,10 @@ input[type="checkbox"] {
 
 /* Estilos responsivos */
 @media (max-width: 767px) {
+    .main-container {
+        max-width: 90%;
+    }
+
     h1 {
         font-size: 24px;
     }
@@ -383,8 +396,19 @@ input[type="checkbox"] {
     }
 
     /* Ajuste do espaço da barra de navegação */
-    #navbar .collapse {
-        margin-left: 35%;
+   
+
+    #navbarTogglerDemo03 {
+        justify-content: flex-end;
+    }
+
+    #navbarTogglerDemo03 .navbar-nav {
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    #navbarTogglerDemo03 .nav-item {
+        margin-left: 0; /* Remova a margem esquerda */
     }
 }
 
@@ -402,6 +426,11 @@ input[type="checkbox"] {
     #navbarTogglerDemo03 .nav-item {
         margin-left: 0; /* Remova a margem esquerda */
     }
+}
+
+.mt-3{
+    display: flex;
+    justify-content: center;
 }
 
 /* Estilos para o carrossel */
