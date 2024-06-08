@@ -28,7 +28,7 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
    Na tela de cadastro os dados requeridos ao usuário são:
 
    
-   👉 **NOME COMPLETO**, um campo para inserção de caractere, não deve permitir a entrada de caracteres especiais **(@!#$%*)**, ou numero **(1,2,3,4,5,6,7,8,9,0)**
+   👉 **NOME COMPLETO**, um campo para inserção de caractere, não deve permitir a entrada de caracteres especiais **(@!#$%*)**, ou numero **(1,2,3,4,5,6,7,8,9,0)**   ]
    
    👉 **EMAIL**, um campo para inserção de caractere, deve permitir obrigatóriamente um **@** e um **.com**.
    
@@ -39,25 +39,55 @@ Atividade 2º Bimestre 3º Semestre S.I. UX/DEVOPS
    👉 **CONFIRMAÇÃO DE SENHA** um campo para inserção de caractere que deve ser idêntica ao campo de senha.
 
    
-    O nome completo e o nome do usuário tem uma diferença, o nome do usuário será mostrado na home do site, e o nome completo sera salvo como requisito de cadastro.
+   O nome completo e o nome do usuário tem uma diferença, o nome do usuário será mostrado na home do site, e o nome completo sera salvo como requisito de cadastro.
+   
 
    ### :small_blue_diamond: Tela de Recuperar Senha.
+   
    A recuperação de senha é feita através de um email enviado ao usuário que, nesse email esta contido um link que redireciona a uma tela especifica de recuperar senha, essa tela esta disposta no [miro](https://miro.com/welcomeonboard/TTQ5cmFrS0hOV2RkVk5IZUhVQlVxemxvR0ljV0wwQmVZTUV5MTdZdnk2VWZhaHFJbkI0dmtSNHg5d2NqcUM0VHwzNDU4NzY0NTg4ODY5OTkyODgzfDI=?share_link_id=768665701708), esse link só sera enviado a um cliente que ja esta salvo nos cadastros.
  
    ### :small_blue_diamond: Tela para inserir nova Senha.
+   
    Nessa tela temos, que só é possivel acessar através do link enviado ao email do usuário, podemos inserir a nova senha dentro do campo nova senha, nesse campo tamém existe a opção de mostrar a senha ou esconder ela, e claro para confirmar a senha é preciso que os dois campos estejam iguais.
 
    ### :small_blue_diamond: Tela Principal.
-   A tela principal é aonde o usuário ira poder executar a maior parte das funções do programa, nela foi separado um campo para anuncios, esse campo ele muda de tamanho conforme a responsividade do aplicativo que estiver sendo usado, exemplo: no celular o campo do anuncio é bem menor, logicamente por conta do espaço reduzido na tela, ja no desktop ou tablet temos mais espaço para se trabalhar. Também existe a opção de barra de pesquisa, que o usuário poderá pesquisar dentro do sistema alguma informação que deseja, ou um produto.
+   
+   A tela principal é aonde o usuário ira poder executar a maior parte das funções do programa, nela foi separado um campo para anuncios, esse campo ele muda de tamanho conforme a responsividade do aplicativo que estiver sendo usado, exemplo: no celular o campo do anuncio é bem menor, logicamente por conta do espaço reduzido na tela, ja no desktop ou tablet temos mais espaço para se trabalhar, além de componentes como:
+   
+   👉 **Barra de pesquisa** que o usuário poderá pesquisar dentro do sistema alguma informação que deseja, ou um produto.
+
+   👉 **Icones** como os de configurações, usuário, carrinho, informações e lupa.
+
+   👉 **Cards** para identificação e uma breve descrição dos produtos.
+
+   👉 **Carrosel** utilizado para apresentar imagens relevantes como destaque da página.
+
+   👉 **Banners** utilizado para exibir anuncios de patrocinadores ou imagens relevantes da página.
+
    
    #### :small_blue_diamond: Funcionalidades da Tela principal.
+   
    As algumas das funcionalidades é o carrosel, nele é possivel colocar banners informativos sobre o ramo de negócio da empresa ou até mesmo colocar produtos em destaque caso seja uma plataforma de vendas, também temos o menu de usuário, o menu de usuário é possivel ver a imagem de perfil com o nome do usuário, além de ter a opção de alterar senha, logicamente ao clicar na senha é possivel acessar aquela pagina especifica de alteração que só é possivel acessar pelo email, fora essas opções existe também a opção para sair do perfil do usuário.
 
    #### :small_blue_diamond: Guia de navegação na Tela principal.
+   
    Uma das funcionalidades que aparecem no celular e no tablet é uma engrenagem que fica no canto superior direito do ambiente, essa engrenagem armazena as opções do menu de navegação, esse menu contem **"ACESSIBILIDADE"**, **"Contato"** e **"Sobre"**, nessa barra de navegação o usuário ira poder escolher quais dessas opções deseja acessar.
 
    ### :small_blue_diamond: Tela de Acessibilidade.
-   A acessibilidade é uma funcionalidade muito importante, principalmente quando se trata de incluir usuários e clientes com necessidades especiais no mundo da tecnologia, foi pensando nisso que colocamos essa opção ao usuário, nessa opção sera possivel o usuário escolher o tamanho da letra que deseja que seja usuado no site, para mais facil leitura. Também existe a opção de ajustar o contraste da tela, dessa forma fica mais facil ver determinadas imagens caso necessário. Também existe o modo escuro e recursos assistidos, que aplicam um a voz de uma inteligência artificial para ler as opções que estão aparecendo na tela, essa é uma funcionalidade muito importante para usuários com dificuldade visual ou motora. 
+   
+   A acessibilidade é uma funcionalidade muito importante, principalmente quando se trata de incluir usuários e clientes com necessidades especiais no mundo da tecnologia, foi pensando nisso que colocamos essa opção ao usuário, nessa opção sera possivel o usuário escolher:
+   
+   👉 **Tamanho da Letra**  permite o ajuste do tamanho da fonte da página.
+   
+   👉 **Contraste da Tela** ajusta as cores da pagina, dessa forma fica mais facil ver determinadas imagens caso necessário.
+
+   👉 **Recursos Assistidos** que aplicam um a voz de uma inteligência artificial para ler as opções que estão aparecendo na tela, essa é uma funcionalidade muito importante para usuários com dificuldade visual ou motora.
+   
+   👉  **Modo Escuro** altera alguns componentes e cores visando o conforto visual.
+
+   👉 **Modo Daltinismo** proporciona o ajuste necessário a esse tipo de condição visual do usuário.
+
+   
   
 
 

@@ -14,7 +14,7 @@
 }
 
 #navbar .collapse {
-    margin-left: 35%;
+    margin-left: 0;
 }
 
 #h1,
@@ -32,6 +32,12 @@
     margin: 10px 10px;
     text-align: center;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
 }
 
 .container {
@@ -88,7 +94,6 @@
 .img-center .btn:hover {
     background-color: #b53bca;
     color: white;
-
 }
 
 .img-center .outline-primary:hover {
@@ -183,7 +188,6 @@ p {
     padding: 10px 100px;
     text-align: center;
     border-radius: 10px;
-
 }
 
 .logo-title {
@@ -210,7 +214,7 @@ p {
 .barra-vertical {
     width: 2px;
     height: 100px;
-    background-color:#9510AC;;;
+    background-color:#9510AC;
     display: inline-block;
     margin: 0 20px;
 }
@@ -244,10 +248,11 @@ input[type="checkbox"] {
 .btn-confirmar:hover{
     background-color: #9510AC;;
 }
+
 /* Estilos responsivos */
 @media (max-width: 767px) {
     h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     h2 {
@@ -262,11 +267,39 @@ input[type="checkbox"] {
         width: 80%;
         height: 45px;
     }
+
+    .carousel-item img {
+        width: 100%;
+    }
+
+    /* Estilos para o header em telas menores que 768px */
+    #h1 {
+        font-size: 24px;
+    }
+
+    #nav-link {
+        font-size: medium;
+    }
+
+    #i {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #navbar .collapse {
+        margin-left: 0;
+    }
+
+    /* Ajuste do tamanho da imagem no carrossel */
+    .carousel-item img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
-@media (max-width: 959px) {
+@media (min-width: 768px) and (max-width: 959px) {
     h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     h2 {
@@ -277,15 +310,38 @@ input[type="checkbox"] {
         size: 18px;
     }
 
+    .carousel-item img {
+        width: 75%;
+    }
+
     .btn-primary {
         width: 80%;
         height: 50px;
+    }
+
+    /* Estilos para o header em telas de 768px a 959px */
+    #h1 {
+        font-size: 28px;
+    }
+
+    #nav-link {
+        font-size: large;
+    }
+
+    #i {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Ajuste do espaço da barra de navegação */
+    #navbar .collapse {
+        margin-left: 0;
     }
 }
 
 @media (min-width: 959px) {
     h1 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     h2 {
@@ -295,4 +351,92 @@ input[type="checkbox"] {
     p {
         size: 20px;
     }
+
+    .carousel-item img {
+        width: 50%;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 10px;
+        /* Adicionando margem inferior para separar os itens */
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        /* Removendo a margem esquerda para alinhar os itens */
+    }
+
+    /* Estilos para o header em telas maiores que 959px */
+    #h1 {
+        font-size: 32px;
+    }
+
+    #nav-link {
+        font-size: large;
+    }
+
+    #i {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Ajuste do espaço da barra de navegação */
+    #navbar .collapse {
+        margin-left: 35%;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Estilos para telas maiores que 992px */
+    #navbarTogglerDemo03 {
+        justify-content: flex-end;
+    }
+
+    #navbarTogglerDemo03 .navbar-nav {
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    #navbarTogglerDemo03 .nav-item {
+        margin-left: 0; /* Remova a margem esquerda */
+    }
+}
+
+/* Estilos para o carrossel */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para o ícone dentro da barra de pesquisa */
+.input-group .form-control {
+    padding-left: 2.5rem;
+    /* Espaço para o ícone */
+}
+
+.input-group .input-group-text {
+    background: transparent;
+    border: none;
+    padding-left: 0.5rem;
+    padding-right: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.input-group .input-group-text i.bi-search {
+    font-size: 1.2rem;
+    /* Ajuste o tamanho do ícone conforme necessário */
+    color: #6c757d;
+    /* Ajuste a cor do ícone conforme necessário */
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 1;
 }
