@@ -56,6 +56,102 @@ body {
     margin: auto;
 }
 
+/* Tela de login*/
+.box {
+    width: 500px;
+    height: 450px;
+    background-color: #ffffff;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control:hover {
+    border-color: rgb(44, 44, 255);
+}
+
+.form-control {
+    border-color: rgb(91, 91, 92);
+    border: 1.5px solid;
+}
+
+.centro {
+    
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.btn {
+    background-color: #9510ac;
+    color: wheat;
+    text-align: center;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #b53bca;
+    color: wheat;
+}
+
+.lnr-eye {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.grid-senhas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: inline-flex;
+}
+
+.link-recuperar-senha, .link-cadastro{
+    width: 49%;
+}
+
+.link-recuperar-senha a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    display: contents;
+}
+.link-cadastro a {
+    margin-left: 35.02%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.input-senha{
+    width: 95%;
+}
+
+.senha{
+    height: 90px;
+    display: grid;
+    grid-template-columns: 95% 5%;
+}
+
+.icon i{
+    margin-top: 45px;
+}
+
 /* Estilo para o título */
 h2 {
     margin-bottom: 20px;
@@ -106,7 +202,7 @@ p {
 }
 
 /* Estilos responsivos */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 28px;
     }
@@ -123,6 +219,53 @@ p {
         width: 80%;
         height: 45px;
     }
+
+    .link-recuperar-senha a{
+        font-size: 20px;
+
+    }
+
+    .link-cadastro a{
+        margin-left: 18.9%;
+        font-size: 20px;
+    }
+
+    .box {
+        width: 500px;
+        height: 450px;
+        background-color: #ffffff;
+        padding: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 10px;
+        border: none;
+    
+    }
+    
+}
+
+@media (max-width: 425px){
+    .link-recuperar-senha a{
+        font-size: 15px;
+    }
+
+    .link-cadastro a{
+        margin-left: 19%;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 375px){
+    .link-recuperar-senha a{
+        font-size: 13px;
+    }
+
+    .link-cadastro a{
+        margin-left: 14.9%;
+        font-size: 13px;
+    }
+
 }
 
 @media (max-width: 959px) {

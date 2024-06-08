@@ -16,85 +16,19 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/b4671e8568.js" crossorigin="anonymous" defer></script>
 
 </head>
 
-<style>
-    .container {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .box {
-        width: 500px;
-        height: 450px;
-        background-color: #ffffff;
-        padding: 30px;
-        padding-left: 50px;
-        padding-right: 50px;
-        border-radius: 10px;
-        border: 1px solid #000;
-
-    }
-
-    .form-control:hover {
-        border-color: rgb(44, 44, 255);
-    }
-
-    .form-control {
-        border-color: rgb(91, 91, 92);
-        border: 1.5px solid;
-    }
-
-    .centro {
-        text-align: center;
-    }
-
-    .logo {
-        width: 100px;
-
-    }
-
-    .btn {
-        background-color: #9510ac;
-        color: wheat;
-        text-align: center;
-        width: 100%;
-    }
-
-    .btn:hover {
-        background-color: #b53bca;
-        color: wheat;
-
-    }
-
-    .link a {
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    .lnr-eye {
-        position: absolute;
-        top: 5px;
-        right: 10px;
-        cursor: pointer;
-    }
-
-    body {
-        margin: 0px;
-    }
-</style>
 
 <body>
 
     <div class="container">
         <div class="box">
             <div class="centro">
-                <img class="logo" src="img/Logo.jpeg" alt="Logo do site">
+                <img class="logo" src="imagens/logo_site.png" alt="Logo do site">
             </div>
             <h1>LOGIN:</h1>
             <form>
@@ -103,10 +37,14 @@
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text"></div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Senha:</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                    <span class="lnr lnr-eye"></span>
+                <div class="senha">
+                    <div class="mb-3 input-senha">
+                        <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="icon">
+                        <i class="fa-regular fa-eye-slash"></i>
+                    </div>
                 </div>
 
                 <div class="centro">
@@ -115,9 +53,14 @@
 
             </form>
 
-            <div class="link">
-                <a href="recuperaSenha.html">Esqueceu a senha?</a>
-                <a style="margin-left: 33.9%;" href="cadastro.html">Primeiro acesso</a>
+            <div class="grid-senhas">
+                <div class="link-recuperar-senha">
+                    <a href="recuperaSenha.html">Esqueceu a senha?</a>
+                
+                </div>
+                <div class="link-cadastro">
+                    <a href="cadastro.html">Primeiro acesso</a>
+                </div>
             </div>
 
         </div>
