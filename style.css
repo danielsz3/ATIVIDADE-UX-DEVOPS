@@ -105,16 +105,18 @@
     width: 49.5%;
     border: 1px solid #9510ac;
 }
-.btn{
+
+.btn {
     background-color: #b53bca;
     color: #fff;
     width: 300px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #b53bca;
     columns: #fff;
 }
+
 .img-center .btn:hover {
     background-color: #b53bca;
     color: white;
@@ -130,7 +132,6 @@
     text-decoration: none;
     color: white;
 }
-/* Estilos personalizados para o formulário de recuperação de senha */
 
 /* Definindo margem e padding para o corpo */
 body {
@@ -140,33 +141,42 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f8f9fa;
 }
-.card-img-top{
+
+.card-img-top {
     background-color: #b53bca;
 }
-.card-body{
+
+.card-body {
     background-color: #eacfee;
 }
-.card-itens{
+
+.card-itens {
     display: flex;
 
 }
- .bi-cart-plus{
+
+.bi-cart-plus {
     scale: 2;
-   padding-left: 70px;
+    padding-left: 70px;
 }
-.bi-gear-fill::before{
+
+.bi-gear-fill::before {
     scale: 2;
 }
-.card-itens p{
+
+.card-itens p {
     margin-top: 10px;
 }
-.bi-cart-plus{
+
+.bi-cart-plus {
     margin-bottom: 15px;
 }
-.card .bi-info-circle{
+
+.card .bi-info-circle {
     scale: 1.5;
     margin-left: 95%;
 }
+
 /* Estilizando o container principal */
 .main-container {
     max-width: 60%;
@@ -177,7 +187,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: auto;
-    
+
 }
 
 
@@ -203,7 +213,8 @@ p {
     background-color: #9510AC;
     border-color: #9510AC;
     color: #ffffff;
-    width: 80%;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .col-md-12 .btn:hover {
@@ -319,6 +330,11 @@ input[type="checkbox"] {
 .btn-confirmar:hover {
     background-color: #9510AC;
     ;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: left;
 }
 
 /* Estilos responsivos */
@@ -525,7 +541,6 @@ input[type="checkbox"] {
 /* Estilos para o ícone dentro da barra de pesquisa */
 .input-group .form-control {
     padding-left: 2.5rem;
-    /* Espaço para o ícone */
 }
 
 .input-group .input-group-text {
@@ -576,4 +591,34 @@ input[type="checkbox"] {
 .container-fluid.col .row {
     gap: 25px;
     margin: 10px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.link-container a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos personalizados */
+.input-group-append {
+    position: absolute;
+    left: 90%;
+    top: 16px;
+}
+
+/* Ajuste a largura do input conforme necessário */
+#floatingPassword {
+    width: calc(100% - 39px);
+    /* Desconta a largura do ícone e o espaço à direita */
 }
