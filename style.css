@@ -1,13 +1,13 @@
 /* Estilo da Navbar */
+
 #navbar {
     background-color: #9510ac;
 }
 
 #img {
-    width: 100px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-40%);
+
+    margin-left: 20px;
+    width: 120px;
 
 }
 
@@ -31,6 +31,7 @@
 #i {
     scale: 2;
 }
+
 
 .anuncio {
     background-color: #808080;
@@ -104,7 +105,16 @@
     width: 49.5%;
     border: 1px solid #9510ac;
 }
+.btn{
+    background-color: #b53bca;
+    color: #fff;
+    width: 300px;
+}
 
+.btn:hover{
+    background-color: #b53bca;
+    columns: #fff;
+}
 .img-center .btn:hover {
     background-color: #b53bca;
     color: white;
@@ -120,17 +130,43 @@
     text-decoration: none;
     color: white;
 }
-
 /* Estilos personalizados para o formulário de recuperação de senha */
 
 /* Definindo margem e padding para o corpo */
 body {
+
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #f8f9fa;
 }
+.card-img-top{
+    background-color: #b53bca;
+}
+.card-body{
+    background-color: #eacfee;
+}
+.card-itens{
+    display: flex;
 
+}
+ .bi-cart-plus{
+    scale: 2;
+   padding-left: 70px;
+}
+.bi-gear-fill::before{
+    scale: 2;
+}
+.card-itens p{
+    margin-top: 10px;
+}
+.bi-cart-plus{
+    margin-bottom: 15px;
+}
+.card .bi-info-circle{
+    scale: 1.5;
+    margin-left: 95%;
+}
 /* Estilizando o container principal */
 .main-container {
     max-width: 60%;
@@ -141,7 +177,9 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: auto;
+    
 }
+
 
 /* Estilo para o título */
 h2 {
@@ -180,11 +218,6 @@ p {
     width: 80%;
 }
 
-/* Estilo para inputs */
-.form-control {
-    margin-bottom: 20px;
-}
-
 /* Estilo para a imagem do logotipo */
 .logo {
     width: 80px;
@@ -206,16 +239,21 @@ p {
 }
 
 .container {
-    width: 100%;
+    padding: 15px;
+    width: 90%;
     max-width: 600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 1px solid #000;
+    margin-top: 50px;
+    border-radius: 20px;
+
 }
 
 .acessibilidade-box {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     padding: 10px 100px;
     text-align: center;
     border-radius: 10px;
