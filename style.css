@@ -340,10 +340,6 @@ h3 {
 /* Estilos responsivos */
 @media (max-width: 767px) {
 
-    .main-container {
-        border:none;
-    }
-
     .anuncio-lateral {
         background-color: #808080;
         margin: 10px 10px;
@@ -359,8 +355,8 @@ h3 {
     }
 
     .main-container {
-    
         max-width: 90%;
+        border: none;
     }
 
     h1 {
@@ -402,6 +398,27 @@ h3 {
         margin-left: 0;
     }
 
+    .col-md-12 .outline-primary,
+    .col-md-12 .outline-primary-02 {
+        width: 100%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+        background-color: #9510AC;
+        border-color: #9510AC;
+        color: #ffffff;
+        display: inline-block;
+    }
+
+    .col-md-12 .btn:hover {
+        background-color: #b53bca;
+        color: #ffffff;
+    }
+
+    /* Esconder o botão de cancelar */
+    #buttonCancel {
+        display: none;
+    }
+
     /* Ajuste do tamanho da imagem no carrossel */
     .carousel-item img {
         max-width: 100%;
@@ -410,6 +427,11 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
+
+    .main-container {
+        max-width: 90%;
+        border: none;
+    }
 
     h1 {
         font-size: 28px;
@@ -421,6 +443,27 @@ h3 {
 
     p {
         size: 18px;
+    }
+
+    .col-md-12 .outline-primary,
+    .col-md-12 .outline-primary-02 {
+        width: 100%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+        background-color: #9510AC;
+        border-color: #9510AC;
+        color: #ffffff;
+        display: inline-block;
+    }
+
+    .col-md-12 .btn:hover {
+        background-color: #b53bca;
+        color: #ffffff;
+    }
+
+    /* Esconder o botão de cancelar */
+    #buttonCancel {
+        display: none;
     }
 
     .carousel-item img {
