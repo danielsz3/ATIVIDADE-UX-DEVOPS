@@ -21,35 +21,40 @@
 </head>
 
 <body>
-    <nav id="navbar" class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" onclick="mostrarMenu()"></span>
-            </button>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i id="i" class="bi bi-person-circle"></i>
+    <main style="width: 100%;">
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" onclick="mostrarMenu()"></span>
                 </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="resetSenha.html" target="_blank">Redefinir a Senha</i></a></li>
-                  <li><a class="dropdown-item" href="login.html">Sair</a></li>
-                </ul>
-              </div>
-            
-            <h1 id="h1">Fulano</h1>
-            <div id="navbarTogglerDemo03" class="collapse navbar-collapse justify-content-end">
-                <img id="img" src="imagens/logo_site.png" alt="">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
-                    <li class="nav-item">
-                        <a id="nav-link" class="nav-link" aria-current="page" href="acessibilidade.html"
-                            target="_blank"><i class="bi bi-gear-fill"></i></a>
-                    </li>
-                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i id="i" class="bi bi-person-circle"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="resetSenha.html" target="_blank">Redefinir a Senha</i></a>
+                        </li>
+                        <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                    </ul>
+                </div>
+
+                <h1 id="h1">Fulano</h1>
+                <div id="navbarTogglerDemo03" class="collapse navbar-collapse justify-content-end">
+                    <img id="img" src="imagens/logo_site.png" alt="">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link" aria-current="page" href="acessibilidade.html"
+                                target="_blank">Acessibilidade:<i class="bi bi-gear-fill"
+                                    style="margin-left: 12px;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <main>
+        </nav>
         <div class="mt-3">
             <div class="row justify-content-center" style="width: 100%;">
                 <div class="input-group">
@@ -94,66 +99,68 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="row">
-            <div class="anuncio-lateral col-4">
-                <h5>Banner Anuncio</h5>
-            </div>
-            <div class="container-fluid col">
-                <h1>Produtos</h1>
-                <div class="row" style="display: flex;justify-content: center;">
-                    <div class="card" style="width: 18rem;">
-                        <i class="bi bi-info-circle"></i>
-                        <img src="imagens/images.png" class="card-img-top" alt="imagens">
-                        <div class="card-body">
-                            <h2 class="card-title">Produto</h2>
-                            <div class="card-itens">
-                                <p class="card-text">Descrição do Produto</p>
-                                <i class="bi bi-cart-plus"></i>
-                                <p>R$100,00</p>
+        <div style="display: flex; justify-content: center;">
+            <div class="row" style="width: 100%;">
+                <div class="anuncio-lateral col-4">
+                    <h5>Banner Anuncio</h5>
+                </div>
+                <div class="container-fluid col">
+                    <h1>Produtos</h1>
+                    <div class="row" style="display: flex;justify-content: center;">
+                        <div class="card" style="width: 18rem;">
+                            <i class="bi bi-info-circle"></i>
+                            <img src="imagens/images.png" class="card-img-top" alt="imagens">
+                            <div class="card-body">
+                                <h2 class="card-title">Produto</h2>
+                                <div class="card-itens">
+                                    <p class="card-text">Descrição do Produto</p>
+                                    <i class="bi bi-cart-plus"></i>
+                                    <p>R$100,00</p>
+
+                                </div>
 
                             </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <i class="bi bi-info-circle"></i>
+                            <img src="imagens/images.png" class="card-img-top" alt="imagens">
+                            <div class="card-body">
+                                <h2 class="card-title">Produto</h2>
+                                <div class="card-itens">
+                                    <p class="card-text">Descrição do Produto</p>
+                                    <i class="bi bi-cart-plus"></i>
+                                    <p>R$100,00</p>
+                                </div>
 
+
+                            </div>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <i class="bi bi-info-circle"></i>
-                        <img src="imagens/images.png" class="card-img-top" alt="imagens">
-                        <div class="card-body">
-                            <h2 class="card-title">Produto</h2>
-                            <div class="card-itens">
-                                <p class="card-text">Descrição do Produto</p>
-                                <i class="bi bi-cart-plus"></i>
-                                <p>R$100,00</p>
+                    <h1>Serviços</h1>
+                    <div class="row" style="display: flex;justify-content: center;">
+                        <div class="card" style="width: 18rem;">
+                            <i class="bi bi-info-circle"></i>
+                            <img src="imagens/images.png" class="card-img-top" alt="imagens">
+                            <div class="card-body">
+                                <h2 class="card-title">Serviço</h2>
+                                <p class="card-text">Descrição do Serviço</p>
+
                             </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <i class="bi bi-info-circle"></i>
+                            <img src="imagens/images.png" class="card-img-top" alt="imagens">
+                            <div class="card-body">
+                                <h2 class="card-title">Serviço</h2>
+                                <p class="card-text">Descrição do Serviço</p>
 
-
+                            </div>
                         </div>
                     </div>
                 </div>
-                <h1>Serviços</h1>
-                <div class="row" style="display: flex;justify-content: center;">
-                    <div class="card" style="width: 18rem;">
-                        <i class="bi bi-info-circle"></i>
-                        <img src="imagens/images.png" class="card-img-top" alt="imagens">
-                        <div class="card-body">
-                            <h2 class="card-title">Serviço</h2>
-                            <p class="card-text">Descrição do Serviço</p>
-
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <i class="bi bi-info-circle"></i>
-                        <img src="imagens/images.png" class="card-img-top" alt="imagens">
-                        <div class="card-body">
-                            <h2 class="card-title">Serviço</h2>
-                            <p class="card-text">Descrição do Serviço</p>
-
-                        </div>
-                    </div>
+                <div class="anuncio-lateral col-4">
+                    <h5>Banner Anuncio</h5>
                 </div>
-            </div>
-            <div class="anuncio-lateral col-4">
-                <h5>Banner Anuncio</h5>
             </div>
         </div>
     </main>

@@ -33,7 +33,6 @@
     scale: 2;
 }
 
-
 .anuncio {
     background-color: #808080;
     margin: 10px 10px;
@@ -225,7 +224,7 @@ p {
     background-color: #ffffff;
     border-color: #9510AC;
     color: #9510AC;
-    width: 80%;
+    width: 100%;
 }
 
 /* Estilo para a imagem do logotipo */
@@ -409,26 +408,11 @@ h3 {
         margin-left: 0;
     }
 
-    .col-md-12 .outline-primary,
-    .col-md-12 .outline-primary-02 {
-        width: 65%;
-        margin-right: 2%;
-        margin-bottom: 10px;
-        background-color: #9510AC;
-        border-color: #9510AC;
-        color: #ffffff;
-        display: inline-block;
-    }
-
-    .col-md-12 .btn:hover {
-        background-color: #b53bca;
-        color: #ffffff;
-    }
-
-    /* Esconder o botão de cancelar */
+    
+    /* Esconder o botão de cancelar 
     #buttonCancel {
         display: none;
-    }
+    } */ 
 
     /* Ajuste do tamanho da imagem no carrossel */
     .carousel-item img {
@@ -438,6 +422,20 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
+
+    .anuncio-lateral {
+        background-color: #808080;
+        margin: 10px 10px;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
 
     .main-container {
         max-width: 90%;
@@ -451,7 +449,7 @@ h3 {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     h3 {
@@ -463,30 +461,14 @@ h3 {
     }
 
     .logo {
-        scale: 3;
+        scale: 2;
         margin-bottom: 50px;
     }
 
-    .col-md-12 .outline-primary,
-    .col-md-12 .outline-primary-02 {
-        width: 80%;
-        margin-right: 2%;
-        margin-bottom: 10px;
-        background-color: #9510AC;
-        border-color: #9510AC;
-        color: #ffffff;
-        display: inline-block;
-    }
-
-    .col-md-12 .btn:hover {
-        background-color: #b53bca;
-        color: #ffffff;
-    }
-
-    /* Esconder o botão de cancelar */
+    /* Esconder o botão de cancelar 
     #buttonCancel {
         display: none;
-    }
+    } */
 
     .carousel-item img {
         width: 75%;
@@ -517,7 +499,7 @@ h3 {
     }
 
     .form-floating {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -587,9 +569,10 @@ h3 {
 @media (min-width: 992px) {
 
     .logo {
-    scale: 1.5;
-    margin-top: 18px;
+        scale: 1.5;
+        margin-top: 18px;
     }
+
     /* Estilos para telas maiores que 992px */
     #navbarTogglerDemo03 {
         justify-content: flex-end;

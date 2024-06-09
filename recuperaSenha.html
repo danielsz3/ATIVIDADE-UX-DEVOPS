@@ -13,33 +13,31 @@
 </head>
 
 <body>
+    <main style="width: 100vw;height: 100vh;display: flex; justify-content: center;">
+        <div class="main-container">
 
-    <div class="container">
+            <form class="row g-3" action="#">
+                <img src="imagens/logo_site.png" alt="" class="logo">
 
-        <form class="row g-3" action="#">
-            <img src="imagens/logo_site.png" alt="" class="logo">
-            <div class="col-md-12">
+                <h3 style="text-align: center;">Recuperar Senha</h3>
+                <p style="text-align: center;">Insira o e-mail cadastrado para receber as instruções de recuperação de senha.</p>
 
-                <h3>Recuperar Senha</h3>
+                <div class="mb-3 form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="E-mail">
+                    <label for="floatingPassword">E-mail</label>
 
-                <p>Insira o e-mail cadastrado para receber as instruções de recuperação de senha.</p>
+                    <div class="col-md-12">
 
-                <label for="inputEmail4" class="form-label"></label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail" required>
-
-            </div>
-
-            <div class="col-md-12">
-
-                <button type="submit" class="btn outline-primary"
-                    onclick="alert('Siga as instruções enviadas no e-mail!')">Enviar</button>
-
-            </div>
+                        <button type="submit" class="btn outline-primary"
+                            onclick="alert('Siga as instruções enviadas no e-mail!')">Enviar</button>
+                    </div>
+                </div>
+        </div>
 
         </form>
 
-    </div>
-
+        </div>
+    </main>
 </body>
 
 </html>

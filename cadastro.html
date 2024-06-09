@@ -21,7 +21,7 @@
                 <img src="imagens/logo_site.png" alt="Logo H com coloração roxa">
                 <h2>Cadastro</h2>
             </div>
-            <form>
+            <form style="display: flex; justify-content: center; flex-direction: column;">
                 <div class="mb-3 form-floating">
                     <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
                     <label for="floatingPassword">Nome Completo</label>
@@ -35,11 +35,14 @@
                     <label for="floatingPassword">Usuário</label>
                 </div>
                 <div class="mb-3 form-floating">
-                    <input type="password" class="form-control" id="senha" placeholder="Senha">
+                    <input type="password" class="form-control" id="passwordId" placeholder="Senha">
                     <label for="floatingPassword">Senha</label>
+                    <div class="">
+                        <span class="toggle-password" onclick="togglePasswordVisibility('passwordId')">👁️</span>
+                    </div>
                 </div>
                 <div class="mb-3 form-floating">
-                    <input type="password" class="form-control" id="confirmarsenha" placeholder="Confirmar Senha">
+                    <input type="password" class="form-control" id="passwordId" placeholder="Confirmar Senha">
                     <label for="floatingPassword">Confirmar Senha</label>
                 </div>
 
@@ -52,7 +55,16 @@
             </form>
         </div>
     </main>
-
+    <script>
+        function togglePasswordVisibility(passwordId) {
+            var passwordField = document.getElementById(passwordId);
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        }
+    </script>
 </body>
 
 </html>
