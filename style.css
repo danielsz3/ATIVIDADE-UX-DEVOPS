@@ -339,6 +339,11 @@ h3 {
 
 /* Estilos responsivos */
 @media (max-width: 767px) {
+
+    .main-container {
+        border:none;
+    }
+
     .anuncio-lateral {
         background-color: #808080;
         margin: 10px 10px;
@@ -354,6 +359,7 @@ h3 {
     }
 
     .main-container {
+    
         max-width: 90%;
     }
 
