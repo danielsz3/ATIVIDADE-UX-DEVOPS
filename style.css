@@ -358,6 +358,11 @@ h3 {
 
 /* Estilos responsivos */
 @media (max-width: 767px) {
+
+    .main-container {
+        border:none;
+    }
+
     .anuncio-lateral {
         background-color: #808080;
         margin: 10px 10px;
@@ -373,6 +378,7 @@ h3 {
     }
 
     .main-container {
+    
         max-width: 90%;
     }
 
@@ -396,9 +402,23 @@ h3 {
     .col-md-12 .outline-primary,
     .col-md-12 .outline-primary-02 {
         width: 100%;
+        margin-right: 2%;
         margin-bottom: 10px;
+        background-color: #9510AC;
+        border-color: #9510AC;
+        color: #ffffff;
+        display: inline-block;
     }
 
+    .col-md-12 .btn:hover {
+        background-color: #b53bca;
+        color: #ffffff;
+    }
+
+    /* Esconder o botão de cancelar */
+    #buttonCancel {
+        display: none;
+    }
 
     .carousel-item img {
         width: 100%;
@@ -430,6 +450,11 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
+
+    .main-container {
+        border:none;
+    }
+
     h1 {
         font-size: 28px;
     }
@@ -453,10 +478,25 @@ h3 {
 
     .col-md-12 .outline-primary,
     .col-md-12 .outline-primary-02 {
-        width: 48%;
+        width: 100%;
         margin-right: 2%;
         margin-bottom: 10px;
+        background-color: #9510AC;
+        border-color: #9510AC;
+        color: #ffffff;
+        display: inline-block;
     }
+
+    .col-md-12 .btn:hover {
+        background-color: #b53bca;
+        color: #ffffff;
+    }
+
+    /* Esconder o botão de cancelar */
+    #buttonCancel {
+        display: none;
+    }
+
 
     /* Estilos para o header em telas de 768px a 959px */
     #h1 {
