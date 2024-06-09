@@ -5,6 +5,10 @@
 
 #img {
     width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+
 }
 
 #nav-link {
@@ -14,6 +18,7 @@
 }
 
 #navbar .collapse {
+    margin-top: 10px;
     margin-left: 0;
 }
 
@@ -40,13 +45,22 @@
     border-radius: 5px;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
+.anuncio-lateral {
+    background-color: #808080;
+    margin: 10px 10px;
+    text-align: center;
+    height: 1200px;
+    width: 15%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.anuncio-lateral.col {
+    width: 15%;
 }
 
 .cadastro-form {
@@ -119,7 +133,7 @@ body {
 
 /* Estilizando o container principal */
 .main-container {
-    max-width: 500px;
+    max-width: 60%;
     padding: 20px;
     border: 1px solid #808080;
     border-radius: 10px;
@@ -141,16 +155,29 @@ p {
 }
 
 /* Estilo para o botão */
+.col-md-12 {
+    display: grid;
+    row-gap: 10px;
+    justify-items: center;
+}
+
 .col-md-12 .outline-primary {
     background-color: #9510AC;
     border-color: #9510AC;
     color: #ffffff;
-    width: 100%;
+    width: 80%;
 }
 
 .col-md-12 .btn:hover {
     background-color: #b53bca;
     color: #ffffff;
+}
+
+.col-md-12 .outline-primary-02 {
+    background-color: #ffffff;
+    border-color: #9510AC;
+    color: #9510AC;
+    width: 80%;
 }
 
 /* Estilo para inputs */
@@ -181,6 +208,10 @@ p {
 .container {
     width: 100%;
     max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .acessibilidade-box {
@@ -214,7 +245,7 @@ p {
 .barra-vertical {
     width: 2px;
     height: 100px;
-    background-color:#9510AC;
+    background-color: #9510AC;
     display: inline-block;
     margin: 0 20px;
 }
@@ -242,15 +273,36 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
-.btn-confirmar{
-    background-color: #9510AC;;
+.btn-confirmar {
+    background-color: #9510AC;
+    ;
 }
-.btn-confirmar:hover{
-    background-color: #9510AC;;
+
+.btn-confirmar:hover {
+    background-color: #9510AC;
+    ;
 }
 
 /* Estilos responsivos */
 @media (max-width: 767px) {
+    .anuncio-lateral {
+        background-color: #808080;
+        margin: 10px 10px;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
+    .main-container {
+        max-width: 90%;
+    }
+
     h1 {
         font-size: 24px;
     }
@@ -298,6 +350,7 @@ input[type="checkbox"] {
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
+
     h1 {
         font-size: 28px;
     }
@@ -384,11 +437,26 @@ input[type="checkbox"] {
 
     /* Ajuste do espaço da barra de navegação */
     #navbar .collapse {
-        margin-left: 35%;
+        margin-left: 30%;
+    }
+
+    #navbarTogglerDemo03 {
+        justify-content: flex-end;
+    }
+
+    #navbarTogglerDemo03 .navbar-nav {
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    #navbarTogglerDemo03 .nav-item {
+        margin-left: 0;
+        /* Remova a margem esquerda */
     }
 }
 
 @media (min-width: 992px) {
+
     /* Estilos para telas maiores que 992px */
     #navbarTogglerDemo03 {
         justify-content: flex-end;
@@ -400,8 +468,14 @@ input[type="checkbox"] {
     }
 
     #navbarTogglerDemo03 .nav-item {
-        margin-left: 0; /* Remova a margem esquerda */
+        margin-left: 0;
+        /* Remova a margem esquerda */
     }
+}
+
+.mt-3 {
+    display: flex;
+    justify-content: center;
 }
 
 /* Estilos para o carrossel */
@@ -439,4 +513,29 @@ input[type="checkbox"] {
 .input-group .form-control {
     position: relative;
     z-index: 1;
+}
+
+.nav-link:hover {
+    text-decoration: 3px underline;
+}
+
+#menu {
+    justify-content: flex-end;
+}
+
+#menu {
+    flex: 1;
+}
+
+.container-fluid.col {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-fluid.col .row {
+    gap: 25px;
+    margin: 10px;
 }
