@@ -23,6 +23,7 @@
 }
 
 #h1,
+
 #i {
     color: #fff;
     margin-left: 15px;
@@ -31,7 +32,6 @@
 #i {
     scale: 2;
 }
-
 
 .anuncio {
     background-color: #808080;
@@ -109,7 +109,6 @@
 .btn {
     background-color: #b53bca;
     color: #fff;
-    width: 300px;
 }
 
 .btn:hover {
@@ -135,7 +134,6 @@
 
 /* Definindo margem e padding para o corpo */
 body {
-
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -226,7 +224,7 @@ p {
     background-color: #ffffff;
     border-color: #9510AC;
     color: #9510AC;
-    width: 80%;
+    width: 100%;
 }
 
 /* Estilo para a imagem do logotipo */
@@ -357,6 +355,8 @@ h3 {
     .main-container {
         max-width: 90%;
         border: none;
+        box-shadow: none;
+        background-color: #f8f9fa;
     }
 
     h1 {
@@ -367,8 +367,18 @@ h3 {
         font-size: 24px;
     }
 
+    h3 {
+        font-size: 33px;
+        text-align: center;
+    }
+
     p {
         size: 16px;
+    }
+
+    .logo {
+        scale: 1.5;
+        margin-top: 30px;
     }
 
     .btn-primary {
@@ -398,26 +408,11 @@ h3 {
         margin-left: 0;
     }
 
-    .col-md-12 .outline-primary,
-    .col-md-12 .outline-primary-02 {
-        width: 100%;
-        margin-right: 2%;
-        margin-bottom: 10px;
-        background-color: #9510AC;
-        border-color: #9510AC;
-        color: #ffffff;
-        display: inline-block;
-    }
-
-    .col-md-12 .btn:hover {
-        background-color: #b53bca;
-        color: #ffffff;
-    }
-
-    /* Esconder o botão de cancelar */
+    
+    /* Esconder o botão de cancelar 
     #buttonCancel {
         display: none;
-    }
+    } */ 
 
     /* Ajuste do tamanho da imagem no carrossel */
     .carousel-item img {
@@ -428,9 +423,25 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 959px) {
 
+    .anuncio-lateral {
+        background-color: #808080;
+        margin: 10px 10px;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
     .main-container {
         max-width: 90%;
         border: none;
+        box-shadow: none;
+        background-color: #f8f9fa;
     }
 
     h1 {
@@ -438,33 +449,26 @@ h3 {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 40px;
     }
 
     p {
         size: 18px;
     }
 
-    .col-md-12 .outline-primary,
-    .col-md-12 .outline-primary-02 {
-        width: 100%;
-        margin-right: 2%;
-        margin-bottom: 10px;
-        background-color: #9510AC;
-        border-color: #9510AC;
-        color: #ffffff;
-        display: inline-block;
+    .logo {
+        scale: 2;
+        margin-bottom: 50px;
     }
 
-    .col-md-12 .btn:hover {
-        background-color: #b53bca;
-        color: #ffffff;
-    }
-
-    /* Esconder o botão de cancelar */
+    /* Esconder o botão de cancelar 
     #buttonCancel {
         display: none;
-    }
+    } */
 
     .carousel-item img {
         width: 75%;
@@ -492,6 +496,10 @@ h3 {
     /* Ajuste do espaço da barra de navegação */
     #navbar .collapse {
         margin-left: 0;
+    }
+
+    .form-floating {
+        width: 100%;
     }
 }
 
@@ -560,6 +568,11 @@ h3 {
 
 @media (min-width: 992px) {
 
+    .logo {
+        scale: 1.5;
+        margin-top: 18px;
+    }
+
     /* Estilos para telas maiores que 992px */
     #navbarTogglerDemo03 {
         justify-content: flex-end;
@@ -574,6 +587,11 @@ h3 {
         margin-left: 0;
         /* Remova a margem esquerda */
     }
+
+    #buttonSend {
+        width: 50%;
+    }
+
 }
 
 .mt-3 {

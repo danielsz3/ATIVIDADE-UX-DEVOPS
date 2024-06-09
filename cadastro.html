@@ -23,37 +23,28 @@
                 <img src="imagens/logo_site.png" alt="Logo H com coloração roxa">
                 <h2>Cadastro</h2>
             </div>
-            <form>
+            <form style="display: flex; justify-content: center; flex-direction: column;">
                 <div class="mb-3 form-floating">
-                    <input type="text" class="form-control" id="nome"
-                        placeholder="Nome Completo">
+                    <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
                     <label for="floatingPassword">Nome Completo</label>
                 </div>
                 <div class="mb-3 form-floating">
-                    <input type="email" class="form-control" id="email"
-                        placeholder="E-mail">
+                    <input type="email" class="form-control" id="email" placeholder="E-mail">
                     <label for="floatingPassword">E-mail</label>
                 </div>
                 <div class="mb-3 form-floating">
-                    <input type="text" class="form-control" id="usuario"
-                        placeholder="Usuário">
+                    <input type="text" class="form-control" id="usuario" placeholder="Usuário">
                     <label for="floatingPassword">Usuário</label>
                 </div>
                 <div class="mb-3 form-floating">
-                    <input type="password" class="form-control" id="senha"
-                        placeholder="Senha">
+                    <input type="password" class="form-control" id="passwordId" placeholder="Senha">
                     <label for="floatingPassword">Senha</label>
-
-                    <div class="input-group-append">
-                        <span class="input-group-text" style="background-color: #fff; border: none;">
-                            <i class="fas fa-eye-slash" id="togglePassword"></i>
-                        </span>
+                    <div class="">
+                        <span class="toggle-password" onclick="togglePasswordVisibility('passwordId')">👁️</span>
                     </div>
-
                 </div>
                 <div class="mb-3 form-floating">
-                    <input type="password" class="form-control" id="confirmarsenha"
-                        placeholder="Confirmar Senha">
+                    <input type="password" class="form-control" id="passwordId" placeholder="Confirmar Senha">
                     <label for="floatingPassword">Confirmar Senha</label>
                     
                     <div class="input-group-append">
@@ -64,14 +55,24 @@
                 </div>
 
                 <div class="col-md-12">
-                    <button type="submit" class="btn outline-primary" id="buttonCancel" ><a href="login.html">Cancelar</a></button>
+                    <button type="submit" class="btn outline-primary" id="buttonCancel"><a
+                            href="login.html">Cancelar</a></button>
                     <button type="submit" class="btn outline-primary-02">Cadastrar</button>
                 </div>
 
             </form>
         </div>
     </main>
-
+    <script>
+        function togglePasswordVisibility(passwordId) {
+            var passwordField = document.getElementById(passwordId);
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        }
+    </script>
 </body>
 
 </html>
