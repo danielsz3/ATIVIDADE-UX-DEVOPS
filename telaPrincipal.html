@@ -27,7 +27,16 @@
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" onclick="mostrarMenu()"></span>
             </button>
-            <i id="i" class="bi bi-person-circle"></i>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i id="i" class="bi bi-person-circle"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="recuperaSenha.html" target="_blank">Redefinir a Senha</i></a></li>
+                  <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                </ul>
+              </div>
+            
             <h1 id="h1">Fulano</h1>
             <div id="navbarTogglerDemo03" class="collapse navbar-collapse justify-content-end">
                 <img id="img" src="imagens/logo_site.png" alt="">

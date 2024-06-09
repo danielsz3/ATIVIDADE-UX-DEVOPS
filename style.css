@@ -109,7 +109,6 @@
 .btn {
     background-color: #b53bca;
     color: #fff;
-    width: 300px;
 }
 
 .btn:hover {
@@ -135,7 +134,6 @@
 
 /* Definindo margem e padding para o corpo */
 body {
-
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
